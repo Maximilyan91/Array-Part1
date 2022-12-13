@@ -41,10 +41,10 @@ public class Main {
         // Задача 4.
 
         int[] massive4 = {1, 2, 3, 4, 5, 6, 7, 8, 9, 10};
-        for (int i =0; i <= massive4.length - 1; i++) {
-            if (i % 2 == 0) {
-                i += 1;
-                System.out.println(i);
+        for (int i =0; i <= massive4.length-1; i++) {
+            if (massive4[i] % 2 != 0) {
+                massive4[i] += 1;
+                System.out.println(massive4[i]);
             }
         }
 
