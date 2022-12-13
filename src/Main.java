@@ -1,4 +1,4 @@
-import java.util.Arrays;
+
 
 public class Main {
     public static void main(String[] args) {
@@ -33,11 +33,20 @@ public class Main {
             if (i > 0) {
                 System.out.print(massive3[i] + ", ");
             } else {
-                System.out.print(massive3[i]);
+                System.out.println(massive3[i]);
             }
 
         }
 
+        // Задача 4.
+
+        int[] massive4 = {1, 2, 3, 4, 5, 6, 7, 8, 9, 10};
+        for (int i =0; i <= massive4.length - 1; i++) {
+            if (i % 2 == 0) {
+                i += 1;
+                System.out.println(i);
+            }
+        }
 
     }
 }
