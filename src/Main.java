@@ -22,6 +22,10 @@ public class Main {
 
         System.out.print(Arrays.toString(massive3)); // Задача 2.
 
+        //Задача 3.
+
+
+
 
 
 
